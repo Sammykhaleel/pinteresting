@@ -3,7 +3,7 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 body {
-  background-image:  image_path("5.jpg") ;
+  background-image:  asset-url("5.jpg") ;
   background-size: cover;
   background-repeat:repeat-y;
 
@@ -12,6 +12,6 @@ body {
   background-attachment:fixed;
 
 
-
+ 
 
 }
