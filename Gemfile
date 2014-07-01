@@ -1,7 +1,10 @@
 source 'https://rubygems.org'
 
-
+gem 'rails_12factor', group: :production
 gem 'rails', '4.1.0'
+group :production, :staging do
+  gem "pg"
+end
 gem 'sqlite3'
 gem 'sass-rails', '~> 4.0.3'
 gem 'uglifier', '>= 1.3.0'
@@ -14,4 +17,5 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 gem 'bootstrap-sass'
 
 gem 'spring',        group: :development
+
 
