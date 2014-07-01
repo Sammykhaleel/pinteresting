@@ -16,3 +16,14 @@
 //= require bootstrap
 //= require turbolinks
 //= require_tree .
+
+
+//Flying Letters script- by Matthias (info@freejavascripts.f2s.com)
+// Modified by Twey for efficiency and compatibility
+//For this script and more, visit Dynamic Drive: http://www.dynamicdrive.com
+
+//Configure message to display. Use "$" for linebreak
+//By default, set to just grab the text from element with ID="fly"
+
+
+
