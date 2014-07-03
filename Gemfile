@@ -28,5 +28,5 @@ end
 #gem 'rails_12factor'
 
 gem 'spring',        group: :development
-
+gem 'pry'
 
